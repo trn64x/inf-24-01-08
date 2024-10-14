@@ -1,0 +1,1 @@
+kw1: select kadra.imie, uslugi.nazwa from uslugi, kadra where uslugi.kadra_id = kadra.id;
