@@ -1,1 +1,4 @@
-kw1: select kadra.imie, uslugi.nazwa from uslugi, kadra where uslugi.kadra_id = kadra.id;
+kw1:select imie,nazwisko,stanowisko from kadra where stanowisko = "fryzjer" or stanowisko = "stylista";
+kw2:SELECT count(*) FROM `uslugi` where rodzaj = 2; SELECT cena FROM `uslugi` where rodzaj = 2 order by cena DESC LIMIT 1;
+kw3:kw1: select kadra.imie, uslugi.nazwa from uslugi, kadra where uslugi.kadra_id = kadra.id;
+kw4: ALTER TABLE uslugi ADD opinia2 TEXT
